@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+    <title>Home</title>
+
+</head>
+
+<body>
+    <h1>Welcome to SpotipyWrapped</h1>
+
+    <p>{{ name }} currently logged in. You have {{ followers }} followers.</p>
+
+    <a href="http://127.0.0.1:5000/about" class="button3 bouncy">Current Song being played</a>
+    <a href="http://127.0.0.1:5000/search" class="button3 bouncy">Explore artists</a>
+</body>
+
+</html>

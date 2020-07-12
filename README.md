@@ -1,0 +1,1 @@
+This is a Spotifywrapped that uses the Spotify API to give people acess ot their top artist and tracks throughout the year. It also has additional applications such as letting people explore new artist.
