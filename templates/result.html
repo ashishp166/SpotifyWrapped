@@ -9,11 +9,11 @@
     <h1>{{nameartist}}</h1>
     <p>{{ nameartist }} has {{ numfollowers }} followers. The artists is in the {{ genre }} genre.</p>
     {% for row in album %} {{row[0]}}
-    <ul>
+    <ol>
         {% for element in row[1:] %}
         <li>{{element|join('')}} {% endfor %}
-    </ul>
+    </ol>
     {% endfor %}
     <a href="http://127.0.0.1:5000/" class="button3 bouncy">Start index</a>
-    <a href="http://127.0.0.1:5000/home" class="button3 bouncy">Home</a>
+    <a href="http://127.0.0.1:5000/homepage" class="button3 bouncy">Home</a>
 </body>

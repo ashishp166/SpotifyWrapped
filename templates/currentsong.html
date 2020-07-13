@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/homepage.css') }}">
+    <title>Home</title>
+
+</head>
+
+<body>
+    <div class="menu-container">
+
+        <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+
+        <div class="hamburger-icon">
+            <label for="openmenu" id="hamburger-label">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div class="menu-pane">
+
+            <nav>
+                <ul class="menu-links">
+                    <li><a href="http://127.0.0.1:5000/#">Home</a>
+                        <span id="DC-info">
+                  <p>Back Home</p>
+                </span></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="menu-links">
+                    <li><a href="###">Explore</a><span id="QC-info">
+                  <p>Find out new artists and songs</p>
+                </span>
+
+                    </li>
+
+                    <li><a href="http://127.0.0.1:5000/search">Artists</a>
+
+                    </li>
+                    <li><a href="###">Songs</a></li>
+                    <li><a href="http://127.0.0.1:5000/currentsong">Current Song</a></li>
+                </ul>
+                <ul class="menu-links">
+                    <li><a href="###">Listening History</a>
+                        <span id="DC-info">
+                  <p>Find out more about your listening habits</p>
+                </span></li>
+
+                    <li><a href="http://127.0.0.1:5000/toptrack">Top Tracks</a></li>
+                    <li><a href="http://127.0.0.1:5000/topartist">Top Artists</a></li>
+                    <li></li>
+                </ul>
+
+
+            </nav>
+        </div>
+        <div class="body-text">
+            <h1>Current Song</h1>
+            <h2>Currently playing: {{ track }} by {{ artist }}.</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>
