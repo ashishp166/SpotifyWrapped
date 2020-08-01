@@ -1,6 +1,6 @@
 import os
 from flask import Flask, redirect, url_for, render_template, request
-from trai import *
+from data import *
 from search import *
 from lisentingHistory import *
 import os, sys, json, webbrowser

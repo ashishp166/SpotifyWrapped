@@ -5,9 +5,9 @@ from spotipy.oauth2 import SpotifyOAuth
 #from json.decoder import JSONDecodeError
 
 #information that needs to be changed
-os.environ['client_id'] = '852da567ab954f35a9da1a6a22ee6b0e'
-os.environ['client_secret'] = '6988c5d09d30417cb485ad95260558dc'
-os.environ['user'] = '31sdqm5miqstsicwf3aq3prku3le?si=zPV-FQ6aRM6LPV3w2e2Rug'
+os.environ['client_id'] = 'xxxxxxxxxxxxx'
+os.environ['client_secret'] = 'xxxxxxxxxxxxx'
+os.environ['user'] = 'xxxxxxxxxxxxx'
 
 #other inforamtion for creating a token
 scope = 'user-read-private user-read-playback-state user-modify-playback-state user-top-read'

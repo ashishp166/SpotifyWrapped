@@ -1,7 +1,8 @@
-import os, sys, json, webbrowser
+import os, sys, webbrowser
 import spotipy
 import spotipy.util as util
 from spotipy.oauth2 import SpotifyOAuth
+import json as simplejson
 from simplejson import JSONDecodeError
 
 def artists(searchinput, spotifyObject):
