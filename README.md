@@ -5,13 +5,6 @@ A project built on flask to let people explore new artists and see their top art
 
 Project uses the [Spotipy api](https://spotipy.readthedocs.io/en/2.13.0/) to get the listening history and discover new artists and music.
 
-
-
-![Project Image](spotify.gif)
-
-> Explore your Spotify listening History
----
-
 ## How To Use
 
 Changes to file:
