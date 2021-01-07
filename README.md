@@ -17,11 +17,11 @@ Project uses the [Spotipy api](https://spotipy.readthedocs.io/en/2.13.0/) to get
 Changes to file:
 <br />
 1. Set up a developer account in [Spotify Dashboard](https://developer.spotify.com/dashboard/)
-<br />
+
 2. Create an app in the dashboard and get the client ID and the client secret ID over to the data python file at the indicated 'xxxxxxx' portion.
-<br />
+
 3.Go to your spotify account and copy your profile link and add the userID below the client and secret id.
-<br />
+
 4.Download the dependencies and run the app.
 
 ```
