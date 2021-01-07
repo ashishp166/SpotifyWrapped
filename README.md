@@ -19,8 +19,10 @@ Changes to file:
 1. Set up a developer account in [Spotify Dashboard](https://developer.spotify.com/dashboard/)
 
 2. Create an app in the dashboard and get the client ID and the client secret ID over to the data python file at the indicated 'xxxxxxx' portion.
-3.Go to your spotify account and copy your profile link and add the userID below the client and secret id.
-4.Download the dependencies and run the app.
+
+3. Go to your spotify account and copy your profile link and add the userID below the client and secret id.
+
+4. Download the dependencies and run the app.
 
 ```
 # Install dependencies
